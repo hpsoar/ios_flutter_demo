@@ -5,7 +5,7 @@
 - create flutter module
   - `flutter create -t module flutter_demo`
   - you can put `flutter_demo` inside `ios_flutter_demo` or beside `ios_flutter_demo`, possibly anywhere else.
-  - `NOTE`: a better solution is to make `flutter_demo` a git repo and add it to `ios_flutter_demo` as submodule
+  - `NOTE`: a better solution is to make `flutter_demo` a git repo and add it to `ios_flutter_demo` as a submodule
     - ref: https://github.com/hpsoar/flutter_demo
 - setup existing project
   - create `Podfile` if not exists
