@@ -6,7 +6,13 @@
 //  Copyright © 2019 Lattern. All rights reserved.
 //
 
+#import <cyUIKit.h>
 #import "AppDelegate.h"
+#import "AppearanceUtils.h"
+#import "CYTabVC.h"
+#import "ViewController.h"
+#import "CYFlutterVC.h"
+#import "SettingVC.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +23,36 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    [self configWindow];
+
+    [self configUI];
+
     return YES;
+}
+
+- (void)configWindow {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+
+    [self.window makeKeyAndVisible];
+}
+
+- (void)configUI {
+    [AppearanceUtils setupTabBar:[CYTabBarConfig configWithTitleColor:[UIColor grayColor]
+                                                   titleSelectedColor:[UIColor greenColor]
+                                                      backgroundColor:[UIColor whiteColor]
+                                                          shadowColor:[UIColor lightGrayColor]]];
+    CYTabVC *tabVC = [CYTabVC new];
+
+    [tabVC addTabs:[CYTabConfig tabs:@[
+            @[ @"首页", @"tab-chunyu.png", @"tab-chunyu-selected.png", [[ViewController new] cyWrapInNavigationVC]],
+            @[ @"我的", @"tab-myservice.png", @"tab-myservice-selected.png", [[ViewController new] cyWrapInNavigationVC]],
+            @[ @"设置", @"tab-usercenter.png", @"tab-usercenter-selected.png", [[SettingVC new] cyWrapInNavigationVC]]
+    ]]];
+
+    [tabVC apply];
+
+    self.window.rootViewController = tabVC;
 }
 
 
