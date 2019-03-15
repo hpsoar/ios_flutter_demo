@@ -15,6 +15,7 @@
 		1231E611223B57B1001D403B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1231E610223B57B1001D403B /* main.m */; };
 		1231E61B223B57B1001D403B /* FlutterHybridDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1231E61A223B57B1001D403B /* FlutterHybridDemoTests.m */; };
 		1231E626223B57B1001D403B /* FlutterHybridDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1231E625223B57B1001D403B /* FlutterHybridDemoUITests.m */; };
+		3C8B8304625D6A45A8FDD67F /* libPods-FlutterHybridDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A18ED08B1F55785692FC6F13 /* libPods-FlutterHybridDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E27B6C4227FD8F1908411F5 /* Pods-FlutterHybridDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterHybridDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlutterHybridDemo/Pods-FlutterHybridDemo.release.xcconfig"; sourceTree = "<group>"; };
 		1231E5FE223B57AF001D403B /* FlutterHybridDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlutterHybridDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1231E601223B57AF001D403B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1231E602223B57AF001D403B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		1231E621223B57B1001D403B /* FlutterHybridDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlutterHybridDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1231E625223B57B1001D403B /* FlutterHybridDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlutterHybridDemoUITests.m; sourceTree = "<group>"; };
 		1231E627223B57B1001D403B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15791724F1FB80D8F6028DD8 /* Pods-FlutterHybridDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterHybridDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlutterHybridDemo/Pods-FlutterHybridDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A18ED08B1F55785692FC6F13 /* libPods-FlutterHybridDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlutterHybridDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8B8304625D6A45A8FDD67F /* libPods-FlutterHybridDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				1231E619223B57B1001D403B /* FlutterHybridDemoTests */,
 				1231E624223B57B1001D403B /* FlutterHybridDemoUITests */,
 				1231E5FF223B57AF001D403B /* Products */,
+				8DC7D49A793C8B05F4DAF87B /* Pods */,
+				7327C3E06B624D53D90E6A15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +139,23 @@
 			path = FlutterHybridDemoUITests;
 			sourceTree = "<group>";
 		};
+		7327C3E06B624D53D90E6A15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A18ED08B1F55785692FC6F13 /* libPods-FlutterHybridDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DC7D49A793C8B05F4DAF87B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15791724F1FB80D8F6028DD8 /* Pods-FlutterHybridDemo.debug.xcconfig */,
+				0E27B6C4227FD8F1908411F5 /* Pods-FlutterHybridDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1231E62A223B57B1001D403B /* Build configuration list for PBXNativeTarget "FlutterHybridDemo" */;
 			buildPhases = (
+				815B354F2303AD09C7E09F5D /* [CP] Check Pods Manifest.lock */,
 				1231E5FA223B57AF001D403B /* Sources */,
 				1231E5FB223B57AF001D403B /* Frameworks */,
 				1231E5FC223B57AF001D403B /* Resources */,
+				7BD599E799A41F3EAE8EE1CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +282,49 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BD599E799A41F3EAE8EE1CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FlutterHybridDemo/Pods-FlutterHybridDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Nimbus/WebController.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WebController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlutterHybridDemo/Pods-FlutterHybridDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		815B354F2303AD09C7E09F5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlutterHybridDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1231E5FA223B57AF001D403B /* Sources */ = {
@@ -433,6 +502,7 @@
 		};
 		1231E62B223B57B1001D403B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15791724F1FB80D8F6028DD8 /* Pods-FlutterHybridDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +520,7 @@
 		};
 		1231E62C223B57B1001D403B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E27B6C4227FD8F1908411F5 /* Pods-FlutterHybridDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
