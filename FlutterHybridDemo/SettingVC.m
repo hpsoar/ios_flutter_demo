@@ -11,6 +11,10 @@
 
 }
 
+- (BOOL)hidesBottomBarWhenPushed {
+    return NO;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
