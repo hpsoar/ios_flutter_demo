@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <Flutter/Flutter.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(10, 100, 100, 44)];
+    [btn setTitle:@"open flutter" forState:UIControlStateNormal];
+    [btn setBackgroundColor:[UIColor yellowColor]];
+    [self.view addSubview:btn];
+    
+    [btn addTarget:self action:@selector(open) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)open {
+    FlutterViewController *vc = [[FlutterViewController alloc] init];
+    
+    [vc setInitialRoute:@"main"];
+    
+    [self presentViewController:vc animated:YES completion:^{
+        
+    }];
 }
 
 
