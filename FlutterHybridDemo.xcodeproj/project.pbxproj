@@ -168,6 +168,7 @@
 				1231E5FB223B57AF001D403B /* Frameworks */,
 				1231E5FC223B57AF001D403B /* Resources */,
 				7BD599E799A41F3EAE8EE1CD /* [CP] Copy Pods Resources */,
+				4667952122ACDA20DF24AECE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -284,6 +285,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4667952122ACDA20DF24AECE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FlutterHybridDemo/Pods-FlutterHybridDemo-frameworks.sh",
+				"${PODS_ROOT}/../flutter_demo/.ios/Flutter/engine/Flutter.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlutterHybridDemo/Pods-FlutterHybridDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7BD599E799A41F3EAE8EE1CD /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
