@@ -20,5 +20,8 @@ pod 'Masonry', '1.0.1'
 pod 'MJExtension'
 pod 'MJRefresh'
 
+pod 'cyUIKit'
+pod 'cyImage'
+
 end
 
