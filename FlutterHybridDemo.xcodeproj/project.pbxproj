@@ -164,6 +164,7 @@
 			buildConfigurationList = 1231E62A223B57B1001D403B /* Build configuration list for PBXNativeTarget "FlutterHybridDemo" */;
 			buildPhases = (
 				815B354F2303AD09C7E09F5D /* [CP] Check Pods Manifest.lock */,
+				1231E633223B5C3B001D403B /* flutter */,
 				1231E5FA223B57AF001D403B /* Sources */,
 				1231E5FB223B57AF001D403B /* Frameworks */,
 				1231E5FC223B57AF001D403B /* Resources */,
@@ -285,6 +286,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1231E633223B5C3B001D403B /* flutter */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = flutter;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed\n";
+		};
 		4667952122ACDA20DF24AECE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
