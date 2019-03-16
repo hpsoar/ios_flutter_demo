@@ -21,6 +21,7 @@
 		1231E6BB223B6C52001D403B /* CYTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1231E692223B6C51001D403B /* CYTabVC.m */; };
 		1231E6CD223B6D26001D403B /* BridgeHandlerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1231E6CC223B6D26001D403B /* BridgeHandlerManager.m */; };
 		3C8B8304625D6A45A8FDD67F /* libPods-FlutterHybridDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A18ED08B1F55785692FC6F13 /* libPods-FlutterHybridDemo.a */; };
+		82880034081D24B4F69B614A /* BridgeEventSubscriberManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 828803E6B1FEB153AAD5AF94 /* BridgeEventSubscriberManager.m */; };
 		8288003BAA5DB83A791319BB /* ShowAlertHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880434ECDAA220C209D512 /* ShowAlertHandler.m */; };
 		8288006F90F31337728CB1B4 /* BridgeCallbackSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880890F19AA699927723CE /* BridgeCallbackSpec.m */; };
 		8288007A5511D9572FB51CD9 /* BridgeBlockHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8288061D30EFF5CBDBE73BB3 /* BridgeBlockHandler.m */; };
@@ -90,6 +91,7 @@
 		1231E6CB223B6D26001D403B /* BridgeHandlerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHandlerManager.h; sourceTree = "<group>"; };
 		1231E6CC223B6D26001D403B /* BridgeHandlerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeHandlerManager.m; sourceTree = "<group>"; };
 		15791724F1FB80D8F6028DD8 /* Pods-FlutterHybridDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterHybridDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlutterHybridDemo/Pods-FlutterHybridDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8288000E4DE62FF05405B92F /* BridgeEventSubscriberManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeEventSubscriberManager.h; sourceTree = "<group>"; };
 		82880017D3C4C5EF2DE1DC20 /* OpenFlutterHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenFlutterHandler.h; sourceTree = "<group>"; };
 		828800613760551EA6D813F4 /* BridgeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeHandler.m; sourceTree = "<group>"; };
 		8288008EEAAF58AC47E6A482 /* SettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingVC.h; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		828802B3EC8D2A63D895505E /* BridgeCallbackInvoke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeCallbackInvoke.m; sourceTree = "<group>"; };
 		828802B944DE15DAC2621B56 /* FlutterEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlutterEvent.m; sourceTree = "<group>"; };
 		8288030E02AC2DED9F71D4B5 /* BridgeEventHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeEventHandler.m; sourceTree = "<group>"; };
+		828803E6B1FEB153AAD5AF94 /* BridgeEventSubscriberManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeEventSubscriberManager.m; sourceTree = "<group>"; };
 		828803F1DAD90782FAE2EF7A /* PageBackHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageBackHandler.h; sourceTree = "<group>"; };
 		828803FFBB5F46C707A908CD /* ShowFlutterDialogHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowFlutterDialogHandler.m; sourceTree = "<group>"; };
 		8288042065EAA8F54547835E /* FlutterBridgeContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterBridgeContext.h; sourceTree = "<group>"; };
@@ -355,6 +358,8 @@
 				82880DC4A73FEFF18A689431 /* ShowFlutterDialogHandler.h */,
 				828806353192C5D580B6D2C2 /* BridgeEventSubscribeHandler.m */,
 				82880E3C7523F0883CB2FC1E /* BridgeEventSubscribeHandler.h */,
+				828803E6B1FEB153AAD5AF94 /* BridgeEventSubscriberManager.m */,
+				8288000E4DE62FF05405B92F /* BridgeEventSubscriberManager.h */,
 			);
 			path = Handlers;
 			sourceTree = "<group>";
@@ -610,6 +615,7 @@
 				82880FABDEC0A2C47A8BD2D8 /* BridgeEventSubscribeHandler.m in Sources */,
 				828803448825A11CDD669BFA /* FlutterBridgeContext.m in Sources */,
 				82880598CC07F9C02B539290 /* BridgeCallbackInvoke.m in Sources */,
+				82880034081D24B4F69B614A /* BridgeEventSubscriberManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
