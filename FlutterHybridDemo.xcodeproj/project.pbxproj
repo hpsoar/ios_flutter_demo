@@ -32,6 +32,7 @@
 		828802999B85A44664DFD5C9 /* ShowFlutterDialogHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 828803FFBB5F46C707A908CD /* ShowFlutterDialogHandler.m */; };
 		8288029E24E71504468B3D29 /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8288053D9193DAA7A0B7A6FC /* SettingVC.m */; };
 		828803448825A11CDD669BFA /* FlutterBridgeContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880426AA30A9BE3E0E8E54 /* FlutterBridgeContext.m */; };
+		828803B797498D65528142DE /* NewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880B2BDACAE37E29BAB728 /* NewsVC.m */; };
 		8288051564B77BE029FD3EF7 /* BridgeActionButtonSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880FFDDAB135299E232936 /* BridgeActionButtonSpec.m */; };
 		8288057E8AB4384BEF5BEE71 /* PageBackHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 828804858C1E5DD057A2E653 /* PageBackHandler.m */; };
 		82880598CC07F9C02B539290 /* BridgeCallbackInvoke.m in Sources */ = {isa = PBXBuildFile; fileRef = 828802B3EC8D2A63D895505E /* BridgeCallbackInvoke.m */; };
@@ -108,6 +109,7 @@
 		82880426AA30A9BE3E0E8E54 /* FlutterBridgeContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlutterBridgeContext.m; sourceTree = "<group>"; };
 		82880434ECDAA220C209D512 /* ShowAlertHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowAlertHandler.m; sourceTree = "<group>"; };
 		8288046B5308D020555D0242 /* InvokePop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvokePop.h; sourceTree = "<group>"; };
+		828804820306E3F3C31E8842 /* NewsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsVC.h; sourceTree = "<group>"; };
 		828804858C1E5DD057A2E653 /* PageBackHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageBackHandler.m; sourceTree = "<group>"; };
 		8288053D9193DAA7A0B7A6FC /* SettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingVC.m; sourceTree = "<group>"; };
 		82880567401C82F02047C1F8 /* FlutterPageParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterPageParameter.h; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		82880971299C4517199D8CF4 /* BridgePageBackSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgePageBackSpec.h; sourceTree = "<group>"; };
 		828809CE8F7A004AB52A54FA /* BridgeInvoke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeInvoke.m; sourceTree = "<group>"; };
 		82880A47AA85AABC018DA83A /* BridgeCallbackInvoke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeCallbackInvoke.h; sourceTree = "<group>"; };
+		82880B2BDACAE37E29BAB728 /* NewsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsVC.m; sourceTree = "<group>"; };
 		82880CAD049EFF7AF6CB0C70 /* BridgeInvoke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeInvoke.h; sourceTree = "<group>"; };
 		82880CEEDAE1B8C28FD6EB2B /* BridgeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHandler.h; sourceTree = "<group>"; };
 		82880D6611FCB5AF51D14E9D /* FlutterPageParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlutterPageParameter.m; sourceTree = "<group>"; };
@@ -203,6 +206,8 @@
 				1231E610223B57B1001D403B /* main.m */,
 				8288053D9193DAA7A0B7A6FC /* SettingVC.m */,
 				8288008EEAAF58AC47E6A482 /* SettingVC.h */,
+				82880B2BDACAE37E29BAB728 /* NewsVC.m */,
+				828804820306E3F3C31E8842 /* NewsVC.h */,
 			);
 			path = FlutterHybridDemo;
 			sourceTree = "<group>";
@@ -616,6 +621,7 @@
 				828803448825A11CDD669BFA /* FlutterBridgeContext.m in Sources */,
 				82880598CC07F9C02B539290 /* BridgeCallbackInvoke.m in Sources */,
 				82880034081D24B4F69B614A /* BridgeEventSubscriberManager.m in Sources */,
+				828803B797498D65528142DE /* NewsVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

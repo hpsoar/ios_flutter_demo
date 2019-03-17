@@ -13,6 +13,7 @@
 #import "ViewController.h"
 #import "CYFlutterVC.h"
 #import "SettingVC.h"
+#import "NewsVC.h"
 
 @interface AppDelegate ()
 
@@ -44,9 +45,12 @@
                                                           shadowColor:[UIColor lightGrayColor]]];
     CYTabVC *tabVC = [CYTabVC new];
 
+    NewsVC *newsVC = [NewsVC new];
+
     [tabVC addTabs:[CYTabConfig tabs:@[
             @[ @"首页", @"tab-chunyu.png", @"tab-chunyu-selected.png", [[ViewController new] cyWrapInNavigationVC]],
             @[ @"我的", @"tab-myservice.png", @"tab-myservice-selected.png", [[ViewController new] cyWrapInNavigationVC]],
+            @[ @"新闻", @"tab-myservice.png", @"tab-myservice-selected.png", [newsVC cyWrapInNavigationVC]],
             @[ @"设置", @"tab-usercenter.png", @"tab-usercenter-selected.png", [[SettingVC new] cyWrapInNavigationVC]]
     ]]];
 

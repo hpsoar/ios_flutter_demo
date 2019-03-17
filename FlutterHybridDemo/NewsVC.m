@@ -1,12 +1,12 @@
 //
-// Created by Huang Peng on 2019-03-15.
+// Created by Huang Peng on 2019-03-16.
 // Copyright (c) 2019 Lattern. All rights reserved.
 //
 
-#import "SettingVC.h"
+#import "NewsVC.h"
 
 
-@implementation SettingVC {
+@implementation NewsVC {
 
 }
 
@@ -18,7 +18,7 @@
     [super viewDidLoad];
 
     FlutterPageParameter *p = [FlutterPageParameter new];
-    p.route = @"main";
+    p.route = @"news_list";
 
     self.parameter = p;
 }
