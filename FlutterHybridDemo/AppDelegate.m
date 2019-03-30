@@ -11,9 +11,7 @@
 #import "AppearanceUtils.h"
 #import "CYTabVC.h"
 #import "ViewController.h"
-#import "CYFlutterVC.h"
-#import "SettingVC.h"
-#import "NewsVC.h"
+#import "FlutterHybridDemo-Swift.h"
 
 @interface AppDelegate ()
 
@@ -51,7 +49,7 @@
             @[ @"首页", @"tab-chunyu.png", @"tab-chunyu-selected.png", [[ViewController new] cyWrapInNavigationVC]],
             @[ @"我的", @"tab-myservice.png", @"tab-myservice-selected.png", [[ViewController new] cyWrapInNavigationVC]],
             @[ @"新闻", @"tab-myservice.png", @"tab-myservice-selected.png", [newsVC cyWrapInNavigationVC]],
-            @[ @"设置", @"tab-usercenter.png", @"tab-usercenter-selected.png", [[SettingVC new] cyWrapInNavigationVC]]
+            @[ @"设置", @"tab-usercenter.png", @"tab-usercenter-selected.png", [[SettingsVC new] cyWrapInNavigationVC]]
     ]]];
 
     [tabVC apply];

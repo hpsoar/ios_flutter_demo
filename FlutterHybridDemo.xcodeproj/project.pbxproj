@@ -17,34 +17,44 @@
 		1231E626223B57B1001D403B /* FlutterHybridDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1231E625223B57B1001D403B /* FlutterHybridDemoUITests.m */; };
 		1231E6BA223B6C52001D403B /* AppearanceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1231E690223B6C51001D403B /* AppearanceUtils.m */; };
 		1231E6BB223B6C52001D403B /* CYTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1231E692223B6C51001D403B /* CYTabVC.m */; };
+		126B1847224F2B4000E7D732 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126B1846224F2B4000E7D732 /* SettingsVC.swift */; };
+		126B1849224F2B5300E7D732 /* NewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126B1848224F2B5300E7D732 /* NewsVC.swift */; };
 		3C8B8304625D6A45A8FDD67F /* libPods-FlutterHybridDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A18ED08B1F55785692FC6F13 /* libPods-FlutterHybridDemo.a */; };
-		8288000EF719EBDB38E4D922 /* BridgeCallbackInvoke.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880708A1A603AA0CDE6A89 /* BridgeCallbackInvoke.m */; };
-		82880048286FFAC3CF62BDE4 /* BridgeEventCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8288011E44F8FB1D518AA137 /* BridgeEventCenter.m */; };
-		828800F3B6FE58C89BF89BEB /* BridgeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 828805FF861BDCAEF4065BEF /* BridgeHandler.m */; };
-		828801DC70B8E7033285C56A /* CYFlutterChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8288073351C26D41D80B7C1A /* CYFlutterChannel.m */; };
-		8288026050750BA910756CDD /* FlutterEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880FC53BF86EC93632BE21 /* FlutterEvent.m */; };
-		8288026C036C717685BC0CD7 /* FlutterPageParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 828804652D3A6B614789D515 /* FlutterPageParameter.m */; };
-		8288029E24E71504468B3D29 /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8288053D9193DAA7A0B7A6FC /* SettingVC.m */; };
-		8288032E94B5F07F9A25F253 /* BridgeHandlerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880A3DCD426024199EE138 /* BridgeHandlerManager.m */; };
-		82880332E19EA0BEE0FD66F7 /* OpenFlutterHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880ACDE6F24DC0F71D7FB7 /* OpenFlutterHandler.m */; };
-		8288038493F01EC0D569535E /* BridgeCallNativeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880BB5E4E5781E55561A05 /* BridgeCallNativeHandler.m */; };
-		828803B797498D65528142DE /* NewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880B2BDACAE37E29BAB728 /* NewsVC.m */; };
-		828803C7FED95AA8C9F03072 /* BridgeCallbackSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 828801C26406E232EBEEAF51 /* BridgeCallbackSpec.m */; };
-		828804388382011A2DA644C9 /* BridgeNativePopHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880CD69D2B6B69D4EF9E5C /* BridgeNativePopHandler.m */; };
-		8288049AEC278F666192F7CC /* InvokePop.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880E5F48A61FF9C58B7687 /* InvokePop.m */; };
-		828805D4AF387FC870E15B73 /* CYFlutterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880B2B32F5D74A9F4E2B2F /* CYFlutterVC.m */; };
-		82880633D9FF052A37E3E8B8 /* ShowAlertHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 828807AC7A06DA8F98485BAF /* ShowAlertHandler.m */; };
-		828806DEEA4738BE4954213B /* BridgePageBackSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880473C59AA608B45FD4C9 /* BridgePageBackSpec.m */; };
-		82880763CBBEB44445BFBEC6 /* BridgeInvoke.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880562BBF60C49C07E85FC /* BridgeInvoke.m */; };
-		8288082B5F4B5FBCDB122F3A /* BridgeResultSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880A248B19C87D83B0ACE6 /* BridgeResultSpec.m */; };
-		828809431AB69AF86C8F5046 /* BridgeActionButtonSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8288095E7FFE9B50F889037B /* BridgeActionButtonSpec.m */; };
-		828809C8A466A209A99EE4FB /* BridgeEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880BABE0B563C21DDB7739 /* BridgeEventHandler.m */; };
-		82880C2B8109B2F3FE1A476E /* BridgeEventSubscribeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880817FA86C372AB06C91D /* BridgeEventSubscribeHandler.m */; };
-		82880D913F0C800B9C064D28 /* BridgeContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 828805DCCCC66C07475E6B83 /* BridgeContext.m */; };
-		82880E9129C34D438A713D35 /* FlutterBridgeInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880C51F686B760A388D169 /* FlutterBridgeInvoker.m */; };
-		82880F50D6531997B8B087BF /* BridgeEventSubscriberManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 828809AB053AF6D61F5B32B4 /* BridgeEventSubscriberManager.m */; };
-		82880F689AD37E095804B355 /* BridgeBlockHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 82880D70869B7000CF8E06BF /* BridgeBlockHandler.m */; };
-		82880FF9DEB44D6DCD3F8AA3 /* ShowFlutterDialogHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 828806C41124A93485937C23 /* ShowFlutterDialogHandler.m */; };
+		8288002F1DC5C8ADACD972CA /* HBSpecUpdatePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828800AC826C81AAB8897F56 /* HBSpecUpdatePage.swift */; };
+		8288002F71353FDBD22DCD45 /* HBClientSpecPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828807F40F71A9B98DA2FD08 /* HBClientSpecPop.swift */; };
+		828800A900BCF89ED158D994 /* HBSubscribeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880630141185A4EE8450A6 /* HBSubscribeEvent.swift */; };
+		8288015A9FF9F07C1A421044 /* HBClosePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828800E140D1640B5257903F /* HBClosePage.swift */; };
+		828801CF22C3D400BA0E6080 /* HBSpecOpenPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828802EEA64933392C361C26 /* HBSpecOpenPage.swift */; };
+		828801D2E46C83CAB7C1AE4F /* HBSpecNativeHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828806151029422C0017407F /* HBSpecNativeHttp.swift */; };
+		828801DC7C1DE9418113DA58 /* HBClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880473DD281142DFBCB143 /* HBClientSpec.swift */; };
+		828802357A7516D9651166F8 /* HBOpenPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880E4C29686FBF72ABF04C /* HBOpenPage.swift */; };
+		8288023E67AC1C1214D7F12A /* HBPageOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8288094CCC447E51DC56A0D2 /* HBPageOps.swift */; };
+		8288028C09C5BDAA2769FCEF /* HBSpecClosePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8288040B39FCFAD59DD35D6E /* HBSpecClosePage.swift */; };
+		828804A8699A808E429CE918 /* HBSpecEmitEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880302C8C90F3B6A630040 /* HBSpecEmitEvent.swift */; };
+		82880569224B6AB21A2076A9 /* HBClientSpecCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880119B2779ADB760C49B0 /* HBClientSpecCallback.swift */; };
+		82880681150DB52FFCA4953E /* HBActionItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880CFB845585DEF4B25828 /* HBActionItemProtocol.swift */; };
+		828806DB414BA071A07D8D12 /* HBUpdatePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828808726A445AD366B0FA67 /* HBUpdatePage.swift */; };
+		828807198A3BC0A3A563FEED /* HBPageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880BBEBAE97210FD388799 /* HBPageProvider.swift */; };
+		8288079384F33397DB52FF3A /* HBShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828807141100398F79CE9BAD /* HBShowAlert.swift */; };
+		8288082A1A936BCD7C800E5A /* HBAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828805AA0416371CA70DA41D /* HBAction.swift */; };
+		828808E14C7165D53935366F /* HBBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828805AC788B1CF77953933F /* HBBarButtonItem.swift */; };
+		828808F4AF9602FC36839547 /* HBClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880FA514329F52D0C58F93 /* HBClient.swift */; };
+		8288090D47FEFFC962F8B1AC /* HBGetInitArgs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8288043AC84929676EFE9E6D /* HBGetInitArgs.swift */; };
+		82880963927D7574E69F6C8D /* HBActionCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8288058A99AD8CA76F90F0AF /* HBActionCenter.swift */; };
+		828809B5066B450943BEF87C /* HBSpecGetInitArgs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880A40CAB77CBD6BCD4D7E /* HBSpecGetInitArgs.swift */; };
+		82880AB3D6CB00F4B529E994 /* HBSpecAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880D92DB04C8F88252358F /* HBSpecAlert.swift */; };
+		82880B293853AB197C327051 /* HBSpecBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828807C634C95530DD24CEF1 /* HBSpecBarButton.swift */; };
+		82880B5C074D6F740E9F8EB6 /* HBContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828803B8DB01184C4FB30C77 /* HBContext.swift */; };
+		82880BE0A0B5064AA0F2CB57 /* HBFlutterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828809263B0F4B22B1661E27 /* HBFlutterVC.swift */; };
+		82880BF2B878F7DC16A202FB /* HBSpecSubscribeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828800381199476C35F5AF35 /* HBSpecSubscribeEvent.swift */; };
+		82880CE829EDA40122BBC516 /* HBFlutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880C65414C3796087DAE4B /* HBFlutter.swift */; };
+		82880D87DC92A8E1B8796304 /* HBPubEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828805569727D1ADA77275D7 /* HBPubEvent.swift */; };
+		82880E94CBF3ACDEC22B59C0 /* HBResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828803BD50AFD24C3F7E0C0F /* HBResult.swift */; };
+		82880EE90845A13964966B00 /* HBEventCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828808B2AF7E1F46298B889E /* HBEventCenter.swift */; };
+		82880F9CA557DD680AAB678D /* HBSpecPageParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828807FF28CA457DA56CD840 /* HBSpecPageParameter.swift */; };
+		82880F9E4B1135CB4B869050 /* HBHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880FEDE7C5DE77CCDFC50B /* HBHttpRequest.swift */; };
+		82880FBB6E609883459DC6CA /* HBSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8288015E29C5E14B74D7D467 /* HBSpec.swift */; };
+		82880FCA5DF6BC0BA4EBC5CC /* FlutterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8288041725ED8731D3F1DF1A /* FlutterClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,63 +96,46 @@
 		1231E690223B6C51001D403B /* AppearanceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppearanceUtils.m; sourceTree = "<group>"; };
 		1231E692223B6C51001D403B /* CYTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYTabVC.m; sourceTree = "<group>"; };
 		1231E693223B6C51001D403B /* CYTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYTabVC.h; sourceTree = "<group>"; };
+		126B1846224F2B4000E7D732 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		126B1848224F2B5300E7D732 /* NewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVC.swift; sourceTree = "<group>"; };
 		15791724F1FB80D8F6028DD8 /* Pods-FlutterHybridDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterHybridDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlutterHybridDemo/Pods-FlutterHybridDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		8288000626D971A8B5DC7D05 /* InvokeChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvokeChannel.h; sourceTree = "<group>"; };
-		8288008EEAAF58AC47E6A482 /* SettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingVC.h; sourceTree = "<group>"; };
-		8288011E44F8FB1D518AA137 /* BridgeEventCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeEventCenter.m; sourceTree = "<group>"; };
-		82880124C9122C8C2BD961B1 /* BridgeInvoke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeInvoke.h; sourceTree = "<group>"; };
-		8288013168BD422942D4A4B1 /* ShowAlertHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowAlertHandler.h; sourceTree = "<group>"; };
-		828801C26406E232EBEEAF51 /* BridgeCallbackSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeCallbackSpec.m; sourceTree = "<group>"; };
-		828803168B64D78648393812 /* FlutterPageParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterPageParameter.h; sourceTree = "<group>"; };
-		8288036E47D7B83D5ACF39ED /* BridgeCallNativeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeCallNativeHandler.h; sourceTree = "<group>"; };
-		8288044DC0CBC8BBE04B3A9C /* BridgeActionButtonSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeActionButtonSpec.h; sourceTree = "<group>"; };
-		828804546BFDFC2F1C25BE99 /* BridgeNativePopHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeNativePopHandler.h; sourceTree = "<group>"; };
-		828804652D3A6B614789D515 /* FlutterPageParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlutterPageParameter.m; sourceTree = "<group>"; };
-		82880473C59AA608B45FD4C9 /* BridgePageBackSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgePageBackSpec.m; sourceTree = "<group>"; };
-		828804820306E3F3C31E8842 /* NewsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsVC.h; sourceTree = "<group>"; };
-		828804A735B2542D074A510E /* BridgePageBackSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgePageBackSpec.h; sourceTree = "<group>"; };
-		8288053D9193DAA7A0B7A6FC /* SettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingVC.m; sourceTree = "<group>"; };
-		82880562BBF60C49C07E85FC /* BridgeInvoke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeInvoke.m; sourceTree = "<group>"; };
-		828805DCCCC66C07475E6B83 /* BridgeContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeContext.m; sourceTree = "<group>"; };
-		828805FF861BDCAEF4065BEF /* BridgeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeHandler.m; sourceTree = "<group>"; };
-		8288068119426DF3F5EC6D63 /* BridgeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHandler.h; sourceTree = "<group>"; };
-		828806C41124A93485937C23 /* ShowFlutterDialogHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowFlutterDialogHandler.m; sourceTree = "<group>"; };
-		828807037045D8B113B25051 /* BridgeEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeEventHandler.h; sourceTree = "<group>"; };
-		82880708A1A603AA0CDE6A89 /* BridgeCallbackInvoke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeCallbackInvoke.m; sourceTree = "<group>"; };
-		8288073351C26D41D80B7C1A /* CYFlutterChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYFlutterChannel.m; sourceTree = "<group>"; };
-		8288073A9E234D8EDC07F448 /* ShowFlutterDialogHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowFlutterDialogHandler.h; sourceTree = "<group>"; };
-		82880746A7DA4AFBBFC62165 /* BridgeEventSubscribeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeEventSubscribeHandler.h; sourceTree = "<group>"; };
-		8288075CA5D2FB3A18C6BFAA /* CYFlutterChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYFlutterChannel.h; sourceTree = "<group>"; };
-		828807AC7A06DA8F98485BAF /* ShowAlertHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowAlertHandler.m; sourceTree = "<group>"; };
-		82880817FA86C372AB06C91D /* BridgeEventSubscribeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeEventSubscribeHandler.m; sourceTree = "<group>"; };
-		828808B734ADB8760A7F9B26 /* InvokePop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvokePop.h; sourceTree = "<group>"; };
-		828808CAC3FFBB42B6E3AFBC /* BridgeCallbackInvoke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeCallbackInvoke.h; sourceTree = "<group>"; };
-		8288095E7FFE9B50F889037B /* BridgeActionButtonSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeActionButtonSpec.m; sourceTree = "<group>"; };
-		828809AB053AF6D61F5B32B4 /* BridgeEventSubscriberManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeEventSubscriberManager.m; sourceTree = "<group>"; };
-		828809CDAC5E2E79AA3F1285 /* BridgeContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeContext.h; sourceTree = "<group>"; };
-		828809E05DC7827723033045 /* BridgeInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeInvoker.h; sourceTree = "<group>"; };
-		828809E984BC26213BF2F683 /* CYFlutterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYFlutterVC.h; sourceTree = "<group>"; };
-		82880A248B19C87D83B0ACE6 /* BridgeResultSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeResultSpec.m; sourceTree = "<group>"; };
-		82880A3DCD426024199EE138 /* BridgeHandlerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeHandlerManager.m; sourceTree = "<group>"; };
-		82880A5F7E9016272B56A26D /* BridgeEventCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeEventCenter.h; sourceTree = "<group>"; };
-		82880ACDE6F24DC0F71D7FB7 /* OpenFlutterHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenFlutterHandler.m; sourceTree = "<group>"; };
-		82880B2B32F5D74A9F4E2B2F /* CYFlutterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYFlutterVC.m; sourceTree = "<group>"; };
-		82880B2BDACAE37E29BAB728 /* NewsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsVC.m; sourceTree = "<group>"; };
-		82880BABE0B563C21DDB7739 /* BridgeEventHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeEventHandler.m; sourceTree = "<group>"; };
-		82880BB5E4E5781E55561A05 /* BridgeCallNativeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeCallNativeHandler.m; sourceTree = "<group>"; };
-		82880BB687F959284CA438A2 /* FlutterEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterEvent.h; sourceTree = "<group>"; };
-		82880C005D0615B58B68158E /* BridgeHandlerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHandlerManager.h; sourceTree = "<group>"; };
-		82880C51F686B760A388D169 /* FlutterBridgeInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlutterBridgeInvoker.m; sourceTree = "<group>"; };
-		82880C6280253BE2BFC03730 /* BridgeBlockHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeBlockHandler.h; sourceTree = "<group>"; };
-		82880CD69D2B6B69D4EF9E5C /* BridgeNativePopHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeNativePopHandler.m; sourceTree = "<group>"; };
-		82880CFF52731296FCE73CB8 /* OpenFlutterHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenFlutterHandler.h; sourceTree = "<group>"; };
-		82880D151DC8C0107D3896D4 /* BridgeCallbackSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeCallbackSpec.h; sourceTree = "<group>"; };
-		82880D70869B7000CF8E06BF /* BridgeBlockHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeBlockHandler.m; sourceTree = "<group>"; };
-		82880DAD95E7774AFEF45E42 /* BridgeResultSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeResultSpec.h; sourceTree = "<group>"; };
-		82880E5F48A61FF9C58B7687 /* InvokePop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvokePop.m; sourceTree = "<group>"; };
-		82880E9117AD982941ACD8A9 /* FlutterBridgeInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterBridgeInvoker.h; sourceTree = "<group>"; };
-		82880FC53BF86EC93632BE21 /* FlutterEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlutterEvent.m; sourceTree = "<group>"; };
-		82880FF020BE9CB646F9EE2B /* BridgeEventSubscriberManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeEventSubscriberManager.h; sourceTree = "<group>"; };
+		828800381199476C35F5AF35 /* HBSpecSubscribeEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSpecSubscribeEvent.swift; sourceTree = "<group>"; };
+		828800AC826C81AAB8897F56 /* HBSpecUpdatePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSpecUpdatePage.swift; sourceTree = "<group>"; };
+		828800E140D1640B5257903F /* HBClosePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBClosePage.swift; sourceTree = "<group>"; };
+		828800F644314FAC91F67991 /* Swift-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridge.h"; sourceTree = "<group>"; };
+		82880119B2779ADB760C49B0 /* HBClientSpecCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBClientSpecCallback.swift; sourceTree = "<group>"; };
+		8288015E29C5E14B74D7D467 /* HBSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSpec.swift; sourceTree = "<group>"; };
+		828802EEA64933392C361C26 /* HBSpecOpenPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSpecOpenPage.swift; sourceTree = "<group>"; };
+		82880302C8C90F3B6A630040 /* HBSpecEmitEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSpecEmitEvent.swift; sourceTree = "<group>"; };
+		828803B8DB01184C4FB30C77 /* HBContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBContext.swift; sourceTree = "<group>"; };
+		828803BD50AFD24C3F7E0C0F /* HBResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBResult.swift; sourceTree = "<group>"; };
+		8288040B39FCFAD59DD35D6E /* HBSpecClosePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSpecClosePage.swift; sourceTree = "<group>"; };
+		8288041725ED8731D3F1DF1A /* FlutterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlutterClient.swift; sourceTree = "<group>"; };
+		8288043AC84929676EFE9E6D /* HBGetInitArgs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBGetInitArgs.swift; sourceTree = "<group>"; };
+		82880473DD281142DFBCB143 /* HBClientSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBClientSpec.swift; sourceTree = "<group>"; };
+		828805569727D1ADA77275D7 /* HBPubEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBPubEvent.swift; sourceTree = "<group>"; };
+		8288058A99AD8CA76F90F0AF /* HBActionCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBActionCenter.swift; sourceTree = "<group>"; };
+		828805AA0416371CA70DA41D /* HBAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBAction.swift; sourceTree = "<group>"; };
+		828805AC788B1CF77953933F /* HBBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBBarButtonItem.swift; sourceTree = "<group>"; };
+		828806151029422C0017407F /* HBSpecNativeHttp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSpecNativeHttp.swift; sourceTree = "<group>"; };
+		82880630141185A4EE8450A6 /* HBSubscribeEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSubscribeEvent.swift; sourceTree = "<group>"; };
+		828807141100398F79CE9BAD /* HBShowAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBShowAlert.swift; sourceTree = "<group>"; };
+		828807C634C95530DD24CEF1 /* HBSpecBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSpecBarButton.swift; sourceTree = "<group>"; };
+		828807F40F71A9B98DA2FD08 /* HBClientSpecPop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBClientSpecPop.swift; sourceTree = "<group>"; };
+		828807FF28CA457DA56CD840 /* HBSpecPageParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSpecPageParameter.swift; sourceTree = "<group>"; };
+		828808726A445AD366B0FA67 /* HBUpdatePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBUpdatePage.swift; sourceTree = "<group>"; };
+		828808B2AF7E1F46298B889E /* HBEventCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBEventCenter.swift; sourceTree = "<group>"; };
+		828809263B0F4B22B1661E27 /* HBFlutterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBFlutterVC.swift; sourceTree = "<group>"; };
+		8288094CCC447E51DC56A0D2 /* HBPageOps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBPageOps.swift; sourceTree = "<group>"; };
+		82880A40CAB77CBD6BCD4D7E /* HBSpecGetInitArgs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSpecGetInitArgs.swift; sourceTree = "<group>"; };
+		82880BBEBAE97210FD388799 /* HBPageProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBPageProvider.swift; sourceTree = "<group>"; };
+		82880C65414C3796087DAE4B /* HBFlutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBFlutter.swift; sourceTree = "<group>"; };
+		82880C6FEC60A66DDCA6F559 /* Design.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Design.h; sourceTree = "<group>"; };
+		82880CFB845585DEF4B25828 /* HBActionItemProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBActionItemProtocol.swift; sourceTree = "<group>"; };
+		82880D92DB04C8F88252358F /* HBSpecAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSpecAlert.swift; sourceTree = "<group>"; };
+		82880E4C29686FBF72ABF04C /* HBOpenPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBOpenPage.swift; sourceTree = "<group>"; };
+		82880FA514329F52D0C58F93 /* HBClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBClient.swift; sourceTree = "<group>"; };
+		82880FEDE7C5DE77CCDFC50B /* HBHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBHttpRequest.swift; sourceTree = "<group>"; };
 		A18ED08B1F55785692FC6F13 /* libPods-FlutterHybridDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlutterHybridDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -208,10 +201,8 @@
 				1231E60C223B57B0001D403B /* LaunchScreen.storyboard */,
 				1231E60F223B57B1001D403B /* Info.plist */,
 				1231E610223B57B1001D403B /* main.m */,
-				8288053D9193DAA7A0B7A6FC /* SettingVC.m */,
-				8288008EEAAF58AC47E6A482 /* SettingVC.h */,
-				82880B2BDACAE37E29BAB728 /* NewsVC.m */,
-				828804820306E3F3C31E8842 /* NewsVC.h */,
+				126B1846224F2B4000E7D732 /* SettingsVC.swift */,
+				126B1848224F2B5300E7D732 /* NewsVC.swift */,
 			);
 			path = FlutterHybridDemo;
 			sourceTree = "<group>";
@@ -245,8 +236,8 @@
 		1231E67E223B6C51001D403B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				82880ECFBC8A25AB97798CD2 /* Bridge */,
-				82880CD85162BE946ACB159A /* Flutter */,
+				82880C6FEC60A66DDCA6F559 /* Design.h */,
+				82880728D93838893C45A3C6 /* hybrid */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -294,94 +285,103 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		828808A6DA32027FE7A53D8D /* Invokes */ = {
+		8288002A79EB191FE3E74AB2 /* h5 */ = {
 			isa = PBXGroup;
 			children = (
-				828808B734ADB8760A7F9B26 /* InvokePop.h */,
-				82880E5F48A61FF9C58B7687 /* InvokePop.m */,
-				82880124C9122C8C2BD961B1 /* BridgeInvoke.h */,
-				82880562BBF60C49C07E85FC /* BridgeInvoke.m */,
-				828809E05DC7827723033045 /* BridgeInvoker.h */,
-				8288000626D971A8B5DC7D05 /* InvokeChannel.h */,
-				828808CAC3FFBB42B6E3AFBC /* BridgeCallbackInvoke.h */,
-				82880708A1A603AA0CDE6A89 /* BridgeCallbackInvoke.m */,
 			);
-			path = Invokes;
+			path = h5;
 			sourceTree = "<group>";
 		};
-		828809ED4B76914C8EAA0923 /* Specs */ = {
+		828800FD633A751D737369CD /* actions */ = {
 			isa = PBXGroup;
 			children = (
-				82880BB687F959284CA438A2 /* FlutterEvent.h */,
-				82880FC53BF86EC93632BE21 /* FlutterEvent.m */,
-				82880DAD95E7774AFEF45E42 /* BridgeResultSpec.h */,
-				82880A248B19C87D83B0ACE6 /* BridgeResultSpec.m */,
-				82880D151DC8C0107D3896D4 /* BridgeCallbackSpec.h */,
-				828801C26406E232EBEEAF51 /* BridgeCallbackSpec.m */,
-				828804A735B2542D074A510E /* BridgePageBackSpec.h */,
-				82880473C59AA608B45FD4C9 /* BridgePageBackSpec.m */,
-				828803168B64D78648393812 /* FlutterPageParameter.h */,
-				828804652D3A6B614789D515 /* FlutterPageParameter.m */,
-				8288044DC0CBC8BBE04B3A9C /* BridgeActionButtonSpec.h */,
-				8288095E7FFE9B50F889037B /* BridgeActionButtonSpec.m */,
+				828807141100398F79CE9BAD /* HBShowAlert.swift */,
+				828800E140D1640B5257903F /* HBClosePage.swift */,
+				828805AA0416371CA70DA41D /* HBAction.swift */,
+				82880FEDE7C5DE77CCDFC50B /* HBHttpRequest.swift */,
+				82880630141185A4EE8450A6 /* HBSubscribeEvent.swift */,
+				828805569727D1ADA77275D7 /* HBPubEvent.swift */,
+				8288094CCC447E51DC56A0D2 /* HBPageOps.swift */,
+				82880E4C29686FBF72ABF04C /* HBOpenPage.swift */,
+				828808726A445AD366B0FA67 /* HBUpdatePage.swift */,
+				8288043AC84929676EFE9E6D /* HBGetInitArgs.swift */,
 			);
-			path = Specs;
+			path = actions;
 			sourceTree = "<group>";
 		};
-		82880CD85162BE946ACB159A /* Flutter */ = {
+		828804FEC552C12FB93C6032 /* client */ = {
 			isa = PBXGroup;
 			children = (
-				828809E984BC26213BF2F683 /* CYFlutterVC.h */,
-				82880B2B32F5D74A9F4E2B2F /* CYFlutterVC.m */,
-				8288075CA5D2FB3A18C6BFAA /* CYFlutterChannel.h */,
-				8288073351C26D41D80B7C1A /* CYFlutterChannel.m */,
-				82880CFF52731296FCE73CB8 /* OpenFlutterHandler.h */,
-				82880ACDE6F24DC0F71D7FB7 /* OpenFlutterHandler.m */,
-				82880E9117AD982941ACD8A9 /* FlutterBridgeInvoker.h */,
-				82880C51F686B760A388D169 /* FlutterBridgeInvoker.m */,
-				8288073A9E234D8EDC07F448 /* ShowFlutterDialogHandler.h */,
-				828806C41124A93485937C23 /* ShowFlutterDialogHandler.m */,
+				82880119B2779ADB760C49B0 /* HBClientSpecCallback.swift */,
+				828807F40F71A9B98DA2FD08 /* HBClientSpecPop.swift */,
+				82880473DD281142DFBCB143 /* HBClientSpec.swift */,
 			);
-			path = Flutter;
+			path = client;
 			sourceTree = "<group>";
 		};
-		82880EA394F39E234F27FC8F /* Handlers */ = {
+		82880728D93838893C45A3C6 /* hybrid */ = {
 			isa = PBXGroup;
 			children = (
-				8288068119426DF3F5EC6D63 /* BridgeHandler.h */,
-				828805FF861BDCAEF4065BEF /* BridgeHandler.m */,
-				8288013168BD422942D4A4B1 /* ShowAlertHandler.h */,
-				828807AC7A06DA8F98485BAF /* ShowAlertHandler.m */,
-				82880C6280253BE2BFC03730 /* BridgeBlockHandler.h */,
-				82880D70869B7000CF8E06BF /* BridgeBlockHandler.m */,
-				828807037045D8B113B25051 /* BridgeEventHandler.h */,
-				82880BABE0B563C21DDB7739 /* BridgeEventHandler.m */,
-				828804546BFDFC2F1C25BE99 /* BridgeNativePopHandler.h */,
-				82880CD69D2B6B69D4EF9E5C /* BridgeNativePopHandler.m */,
-				8288036E47D7B83D5ACF39ED /* BridgeCallNativeHandler.h */,
-				82880BB5E4E5781E55561A05 /* BridgeCallNativeHandler.m */,
-				82880746A7DA4AFBBFC62165 /* BridgeEventSubscribeHandler.h */,
-				82880817FA86C372AB06C91D /* BridgeEventSubscribeHandler.m */,
-				82880FF020BE9CB646F9EE2B /* BridgeEventSubscriberManager.h */,
-				828809AB053AF6D61F5B32B4 /* BridgeEventSubscriberManager.m */,
+				82880DF5ECB089EE34BB1CFE /* native */,
+				82880AA1E7052C52FD1F25C6 /* flutter */,
+				8288002A79EB191FE3E74AB2 /* h5 */,
+				828800F644314FAC91F67991 /* Swift-Bridge.h */,
 			);
-			path = Handlers;
+			path = hybrid;
 			sourceTree = "<group>";
 		};
-		82880ECFBC8A25AB97798CD2 /* Bridge */ = {
+		82880AA1E7052C52FD1F25C6 /* flutter */ = {
 			isa = PBXGroup;
 			children = (
-				828809ED4B76914C8EAA0923 /* Specs */,
-				828808A6DA32027FE7A53D8D /* Invokes */,
-				82880EA394F39E234F27FC8F /* Handlers */,
-				828809CDAC5E2E79AA3F1285 /* BridgeContext.h */,
-				828805DCCCC66C07475E6B83 /* BridgeContext.m */,
-				82880A5F7E9016272B56A26D /* BridgeEventCenter.h */,
-				8288011E44F8FB1D518AA137 /* BridgeEventCenter.m */,
-				82880C005D0615B58B68158E /* BridgeHandlerManager.h */,
-				82880A3DCD426024199EE138 /* BridgeHandlerManager.m */,
+				8288041725ED8731D3F1DF1A /* FlutterClient.swift */,
+				828809263B0F4B22B1661E27 /* HBFlutterVC.swift */,
+				82880C65414C3796087DAE4B /* HBFlutter.swift */,
 			);
-			path = Bridge;
+			path = flutter;
+			sourceTree = "<group>";
+		};
+		82880C28F79319C1763791FD /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				828805AC788B1CF77953933F /* HBBarButtonItem.swift */,
+				82880CFB845585DEF4B25828 /* HBActionItemProtocol.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		82880DF5ECB089EE34BB1CFE /* native */ = {
+			isa = PBXGroup;
+			children = (
+				82880E72EC79096A92FA53C3 /* specs */,
+				828800FD633A751D737369CD /* actions */,
+				8288058A99AD8CA76F90F0AF /* HBActionCenter.swift */,
+				828808B2AF7E1F46298B889E /* HBEventCenter.swift */,
+				82880FA514329F52D0C58F93 /* HBClient.swift */,
+				828803B8DB01184C4FB30C77 /* HBContext.swift */,
+				82880BBEBAE97210FD388799 /* HBPageProvider.swift */,
+				82880C28F79319C1763791FD /* ui */,
+			);
+			path = native;
+			sourceTree = "<group>";
+		};
+		82880E72EC79096A92FA53C3 /* specs */ = {
+			isa = PBXGroup;
+			children = (
+				8288040B39FCFAD59DD35D6E /* HBSpecClosePage.swift */,
+				8288015E29C5E14B74D7D467 /* HBSpec.swift */,
+				828803BD50AFD24C3F7E0C0F /* HBResult.swift */,
+				82880D92DB04C8F88252358F /* HBSpecAlert.swift */,
+				828806151029422C0017407F /* HBSpecNativeHttp.swift */,
+				828800381199476C35F5AF35 /* HBSpecSubscribeEvent.swift */,
+				82880302C8C90F3B6A630040 /* HBSpecEmitEvent.swift */,
+				828807FF28CA457DA56CD840 /* HBSpecPageParameter.swift */,
+				828802EEA64933392C361C26 /* HBSpecOpenPage.swift */,
+				828800AC826C81AAB8897F56 /* HBSpecUpdatePage.swift */,
+				828807C634C95530DD24CEF1 /* HBSpecBarButton.swift */,
+				82880A40CAB77CBD6BCD4D7E /* HBSpecGetInitArgs.swift */,
+				828804FEC552C12FB93C6032 /* client */,
+			);
+			path = specs;
 			sourceTree = "<group>";
 		};
 		8DC7D49A793C8B05F4DAF87B /* Pods */ = {
@@ -611,33 +611,43 @@
 				1231E603223B57AF001D403B /* AppDelegate.m in Sources */,
 				1231E6BB223B6C52001D403B /* CYTabVC.m in Sources */,
 				1231E6BA223B6C52001D403B /* AppearanceUtils.m in Sources */,
-				8288029E24E71504468B3D29 /* SettingVC.m in Sources */,
-				828803B797498D65528142DE /* NewsVC.m in Sources */,
-				8288026050750BA910756CDD /* FlutterEvent.m in Sources */,
-				8288082B5F4B5FBCDB122F3A /* BridgeResultSpec.m in Sources */,
-				828803C7FED95AA8C9F03072 /* BridgeCallbackSpec.m in Sources */,
-				828806DEEA4738BE4954213B /* BridgePageBackSpec.m in Sources */,
-				8288026C036C717685BC0CD7 /* FlutterPageParameter.m in Sources */,
-				828809431AB69AF86C8F5046 /* BridgeActionButtonSpec.m in Sources */,
-				8288049AEC278F666192F7CC /* InvokePop.m in Sources */,
-				82880763CBBEB44445BFBEC6 /* BridgeInvoke.m in Sources */,
-				8288000EF719EBDB38E4D922 /* BridgeCallbackInvoke.m in Sources */,
-				828800F3B6FE58C89BF89BEB /* BridgeHandler.m in Sources */,
-				82880633D9FF052A37E3E8B8 /* ShowAlertHandler.m in Sources */,
-				82880F689AD37E095804B355 /* BridgeBlockHandler.m in Sources */,
-				828809C8A466A209A99EE4FB /* BridgeEventHandler.m in Sources */,
-				828804388382011A2DA644C9 /* BridgeNativePopHandler.m in Sources */,
-				8288038493F01EC0D569535E /* BridgeCallNativeHandler.m in Sources */,
-				82880C2B8109B2F3FE1A476E /* BridgeEventSubscribeHandler.m in Sources */,
-				82880F50D6531997B8B087BF /* BridgeEventSubscriberManager.m in Sources */,
-				82880D913F0C800B9C064D28 /* BridgeContext.m in Sources */,
-				82880048286FFAC3CF62BDE4 /* BridgeEventCenter.m in Sources */,
-				8288032E94B5F07F9A25F253 /* BridgeHandlerManager.m in Sources */,
-				828805D4AF387FC870E15B73 /* CYFlutterVC.m in Sources */,
-				828801DC70B8E7033285C56A /* CYFlutterChannel.m in Sources */,
-				82880332E19EA0BEE0FD66F7 /* OpenFlutterHandler.m in Sources */,
-				82880E9129C34D438A713D35 /* FlutterBridgeInvoker.m in Sources */,
-				82880FF9DEB44D6DCD3F8AA3 /* ShowFlutterDialogHandler.m in Sources */,
+				126B1849224F2B5300E7D732 /* NewsVC.swift in Sources */,
+				126B1847224F2B4000E7D732 /* SettingsVC.swift in Sources */,
+				8288028C09C5BDAA2769FCEF /* HBSpecClosePage.swift in Sources */,
+				82880FBB6E609883459DC6CA /* HBSpec.swift in Sources */,
+				82880E94CBF3ACDEC22B59C0 /* HBResult.swift in Sources */,
+				82880AB3D6CB00F4B529E994 /* HBSpecAlert.swift in Sources */,
+				8288079384F33397DB52FF3A /* HBShowAlert.swift in Sources */,
+				8288015A9FF9F07C1A421044 /* HBClosePage.swift in Sources */,
+				8288082A1A936BCD7C800E5A /* HBAction.swift in Sources */,
+				82880963927D7574E69F6C8D /* HBActionCenter.swift in Sources */,
+				828801D2E46C83CAB7C1AE4F /* HBSpecNativeHttp.swift in Sources */,
+				82880F9E4B1135CB4B869050 /* HBHttpRequest.swift in Sources */,
+				82880BF2B878F7DC16A202FB /* HBSpecSubscribeEvent.swift in Sources */,
+				828800A900BCF89ED158D994 /* HBSubscribeEvent.swift in Sources */,
+				828804A8699A808E429CE918 /* HBSpecEmitEvent.swift in Sources */,
+				82880D87DC92A8E1B8796304 /* HBPubEvent.swift in Sources */,
+				82880EE90845A13964966B00 /* HBEventCenter.swift in Sources */,
+				82880F9CA557DD680AAB678D /* HBSpecPageParameter.swift in Sources */,
+				828801CF22C3D400BA0E6080 /* HBSpecOpenPage.swift in Sources */,
+				8288002F1DC5C8ADACD972CA /* HBSpecUpdatePage.swift in Sources */,
+				82880B293853AB197C327051 /* HBSpecBarButton.swift in Sources */,
+				82880FCA5DF6BC0BA4EBC5CC /* FlutterClient.swift in Sources */,
+				82880BE0A0B5064AA0F2CB57 /* HBFlutterVC.swift in Sources */,
+				8288023E67AC1C1214D7F12A /* HBPageOps.swift in Sources */,
+				828802357A7516D9651166F8 /* HBOpenPage.swift in Sources */,
+				82880CE829EDA40122BBC516 /* HBFlutter.swift in Sources */,
+				828806DB414BA071A07D8D12 /* HBUpdatePage.swift in Sources */,
+				828809B5066B450943BEF87C /* HBSpecGetInitArgs.swift in Sources */,
+				8288090D47FEFFC962F8B1AC /* HBGetInitArgs.swift in Sources */,
+				828808F4AF9602FC36839547 /* HBClient.swift in Sources */,
+				82880B5C074D6F740E9F8EB6 /* HBContext.swift in Sources */,
+				828807198A3BC0A3A563FEED /* HBPageProvider.swift in Sources */,
+				828808E14C7165D53935366F /* HBBarButtonItem.swift in Sources */,
+				82880681150DB52FFCA4953E /* HBActionItemProtocol.swift in Sources */,
+				82880569224B6AB21A2076A9 /* HBClientSpecCallback.swift in Sources */,
+				8288002F71353FDBD22DCD45 /* HBClientSpecPop.swift in Sources */,
+				828801DC7C1DE9418113DA58 /* HBClientSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -818,6 +828,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.lattern.FlutterHybridDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "flutter_ios_utils/Classes/hybrid/Swift-Bridge.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -836,6 +848,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.lattern.FlutterHybridDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "flutter_ios_utils/Classes/hybrid/Swift-Bridge.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
