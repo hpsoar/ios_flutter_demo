@@ -32,6 +32,7 @@
 		8288028C09C5BDAA2769FCEF /* HBSpecClosePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8288040B39FCFAD59DD35D6E /* HBSpecClosePage.swift */; };
 		828804A8699A808E429CE918 /* HBSpecEmitEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880302C8C90F3B6A630040 /* HBSpecEmitEvent.swift */; };
 		82880569224B6AB21A2076A9 /* HBClientSpecCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880119B2779ADB760C49B0 /* HBClientSpecCallback.swift */; };
+		82880578958B703B7219D04C /* HBSpecTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8288090E07B4AC550F8C8DEA /* HBSpecTypes.swift */; };
 		82880681150DB52FFCA4953E /* HBActionItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880CFB845585DEF4B25828 /* HBActionItemProtocol.swift */; };
 		828806DB414BA071A07D8D12 /* HBUpdatePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828808726A445AD366B0FA67 /* HBUpdatePage.swift */; };
 		828807198A3BC0A3A563FEED /* HBPageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880BBEBAE97210FD388799 /* HBPageProvider.swift */; };
@@ -48,13 +49,13 @@
 		82880BE0A0B5064AA0F2CB57 /* HBFlutterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828809263B0F4B22B1661E27 /* HBFlutterVC.swift */; };
 		82880BF2B878F7DC16A202FB /* HBSpecSubscribeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828800381199476C35F5AF35 /* HBSpecSubscribeEvent.swift */; };
 		82880CE829EDA40122BBC516 /* HBFlutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880C65414C3796087DAE4B /* HBFlutter.swift */; };
-		82880D87DC92A8E1B8796304 /* HBPubEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828805569727D1ADA77275D7 /* HBPubEvent.swift */; };
+		82880D87DC92A8E1B8796304 /* HBEmitEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828805569727D1ADA77275D7 /* HBEmitEvent.swift */; };
 		82880E94CBF3ACDEC22B59C0 /* HBResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828803BD50AFD24C3F7E0C0F /* HBResult.swift */; };
 		82880EE90845A13964966B00 /* HBEventCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828808B2AF7E1F46298B889E /* HBEventCenter.swift */; };
 		82880F9CA557DD680AAB678D /* HBSpecPageParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828807FF28CA457DA56CD840 /* HBSpecPageParameter.swift */; };
-		82880F9E4B1135CB4B869050 /* HBHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880FEDE7C5DE77CCDFC50B /* HBHttpRequest.swift */; };
+		82880F9E4B1135CB4B869050 /* HBNativeHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880FEDE7C5DE77CCDFC50B /* HBNativeHttp.swift */; };
 		82880FBB6E609883459DC6CA /* HBSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8288015E29C5E14B74D7D467 /* HBSpec.swift */; };
-		82880FCA5DF6BC0BA4EBC5CC /* FlutterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8288041725ED8731D3F1DF1A /* FlutterClient.swift */; };
+		82880FCA5DF6BC0BA4EBC5CC /* HBFlutterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8288041725ED8731D3F1DF1A /* HBFlutterClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,10 +111,10 @@
 		828803B8DB01184C4FB30C77 /* HBContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBContext.swift; sourceTree = "<group>"; };
 		828803BD50AFD24C3F7E0C0F /* HBResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBResult.swift; sourceTree = "<group>"; };
 		8288040B39FCFAD59DD35D6E /* HBSpecClosePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSpecClosePage.swift; sourceTree = "<group>"; };
-		8288041725ED8731D3F1DF1A /* FlutterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlutterClient.swift; sourceTree = "<group>"; };
+		8288041725ED8731D3F1DF1A /* HBFlutterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBFlutterClient.swift; sourceTree = "<group>"; };
 		8288043AC84929676EFE9E6D /* HBGetInitArgs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBGetInitArgs.swift; sourceTree = "<group>"; };
 		82880473DD281142DFBCB143 /* HBClientSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBClientSpec.swift; sourceTree = "<group>"; };
-		828805569727D1ADA77275D7 /* HBPubEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBPubEvent.swift; sourceTree = "<group>"; };
+		828805569727D1ADA77275D7 /* HBEmitEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBEmitEvent.swift; sourceTree = "<group>"; };
 		8288058A99AD8CA76F90F0AF /* HBActionCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBActionCenter.swift; sourceTree = "<group>"; };
 		828805AA0416371CA70DA41D /* HBAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBAction.swift; sourceTree = "<group>"; };
 		828805AC788B1CF77953933F /* HBBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBBarButtonItem.swift; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 		828807FF28CA457DA56CD840 /* HBSpecPageParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSpecPageParameter.swift; sourceTree = "<group>"; };
 		828808726A445AD366B0FA67 /* HBUpdatePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBUpdatePage.swift; sourceTree = "<group>"; };
 		828808B2AF7E1F46298B889E /* HBEventCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBEventCenter.swift; sourceTree = "<group>"; };
+		8288090E07B4AC550F8C8DEA /* HBSpecTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSpecTypes.swift; sourceTree = "<group>"; };
 		828809263B0F4B22B1661E27 /* HBFlutterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBFlutterVC.swift; sourceTree = "<group>"; };
 		8288094CCC447E51DC56A0D2 /* HBPageOps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBPageOps.swift; sourceTree = "<group>"; };
 		82880A40CAB77CBD6BCD4D7E /* HBSpecGetInitArgs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSpecGetInitArgs.swift; sourceTree = "<group>"; };
@@ -135,7 +137,7 @@
 		82880D92DB04C8F88252358F /* HBSpecAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSpecAlert.swift; sourceTree = "<group>"; };
 		82880E4C29686FBF72ABF04C /* HBOpenPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBOpenPage.swift; sourceTree = "<group>"; };
 		82880FA514329F52D0C58F93 /* HBClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBClient.swift; sourceTree = "<group>"; };
-		82880FEDE7C5DE77CCDFC50B /* HBHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBHttpRequest.swift; sourceTree = "<group>"; };
+		82880FEDE7C5DE77CCDFC50B /* HBNativeHttp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBNativeHttp.swift; sourceTree = "<group>"; };
 		A18ED08B1F55785692FC6F13 /* libPods-FlutterHybridDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlutterHybridDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -298,9 +300,9 @@
 				828807141100398F79CE9BAD /* HBShowAlert.swift */,
 				828800E140D1640B5257903F /* HBClosePage.swift */,
 				828805AA0416371CA70DA41D /* HBAction.swift */,
-				82880FEDE7C5DE77CCDFC50B /* HBHttpRequest.swift */,
+				82880FEDE7C5DE77CCDFC50B /* HBNativeHttp.swift */,
 				82880630141185A4EE8450A6 /* HBSubscribeEvent.swift */,
-				828805569727D1ADA77275D7 /* HBPubEvent.swift */,
+				828805569727D1ADA77275D7 /* HBEmitEvent.swift */,
 				8288094CCC447E51DC56A0D2 /* HBPageOps.swift */,
 				82880E4C29686FBF72ABF04C /* HBOpenPage.swift */,
 				828808726A445AD366B0FA67 /* HBUpdatePage.swift */,
@@ -333,7 +335,7 @@
 		82880AA1E7052C52FD1F25C6 /* flutter */ = {
 			isa = PBXGroup;
 			children = (
-				8288041725ED8731D3F1DF1A /* FlutterClient.swift */,
+				8288041725ED8731D3F1DF1A /* HBFlutterClient.swift */,
 				828809263B0F4B22B1661E27 /* HBFlutterVC.swift */,
 				82880C65414C3796087DAE4B /* HBFlutter.swift */,
 			);
@@ -380,6 +382,7 @@
 				828807C634C95530DD24CEF1 /* HBSpecBarButton.swift */,
 				82880A40CAB77CBD6BCD4D7E /* HBSpecGetInitArgs.swift */,
 				828804FEC552C12FB93C6032 /* client */,
+				8288090E07B4AC550F8C8DEA /* HBSpecTypes.swift */,
 			);
 			path = specs;
 			sourceTree = "<group>";
@@ -622,17 +625,17 @@
 				8288082A1A936BCD7C800E5A /* HBAction.swift in Sources */,
 				82880963927D7574E69F6C8D /* HBActionCenter.swift in Sources */,
 				828801D2E46C83CAB7C1AE4F /* HBSpecNativeHttp.swift in Sources */,
-				82880F9E4B1135CB4B869050 /* HBHttpRequest.swift in Sources */,
+				82880F9E4B1135CB4B869050 /* HBNativeHttp.swift in Sources */,
 				82880BF2B878F7DC16A202FB /* HBSpecSubscribeEvent.swift in Sources */,
 				828800A900BCF89ED158D994 /* HBSubscribeEvent.swift in Sources */,
 				828804A8699A808E429CE918 /* HBSpecEmitEvent.swift in Sources */,
-				82880D87DC92A8E1B8796304 /* HBPubEvent.swift in Sources */,
+				82880D87DC92A8E1B8796304 /* HBEmitEvent.swift in Sources */,
 				82880EE90845A13964966B00 /* HBEventCenter.swift in Sources */,
 				82880F9CA557DD680AAB678D /* HBSpecPageParameter.swift in Sources */,
 				828801CF22C3D400BA0E6080 /* HBSpecOpenPage.swift in Sources */,
 				8288002F1DC5C8ADACD972CA /* HBSpecUpdatePage.swift in Sources */,
 				82880B293853AB197C327051 /* HBSpecBarButton.swift in Sources */,
-				82880FCA5DF6BC0BA4EBC5CC /* FlutterClient.swift in Sources */,
+				82880FCA5DF6BC0BA4EBC5CC /* HBFlutterClient.swift in Sources */,
 				82880BE0A0B5064AA0F2CB57 /* HBFlutterVC.swift in Sources */,
 				8288023E67AC1C1214D7F12A /* HBPageOps.swift in Sources */,
 				828802357A7516D9651166F8 /* HBOpenPage.swift in Sources */,
@@ -648,6 +651,7 @@
 				82880569224B6AB21A2076A9 /* HBClientSpecCallback.swift in Sources */,
 				8288002F71353FDBD22DCD45 /* HBClientSpecPop.swift in Sources */,
 				828801DC7C1DE9418113DA58 /* HBClientSpec.swift in Sources */,
+				82880578958B703B7219D04C /* HBSpecTypes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

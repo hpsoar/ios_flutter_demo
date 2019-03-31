@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <Flutter/Flutter.h>
+#import "FlutterHybridDemo-Swift.h"
 
 @interface ViewController ()
 
@@ -28,13 +28,11 @@
 }
 
 - (void)open {
-    FlutterViewController *vc = [[FlutterViewController alloc] init];
+    FlutterViewController *vc = [[HBFlutterVC alloc] init];
     
     [vc setInitialRoute:@"main"];
-    
-    [self presentViewController:vc animated:YES completion:^{
-        
-    }];
+
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 
